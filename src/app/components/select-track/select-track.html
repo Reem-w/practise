@@ -1,6 +1,7 @@
-<p>select-track works!</p>
+<div class="container m-5">
+<p>Tracks:</p>
 
-<select (change)="showLocations()" [(ngModel)]="selectedTrack">
+  <select (change)="showLocations()" [(ngModel)]="selectedTrack">
   <option selected disabled>--select track--</option>
   @for (track of tracks; track $index) {
     <option>{{ track.Name }}</option>
@@ -13,3 +14,6 @@
     <li *ngIf="Locations.length==0">No Locations Available</li>
   </ul>
 </div>
+</div>
+
+

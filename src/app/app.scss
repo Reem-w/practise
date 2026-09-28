@@ -1,0 +1,13 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container button {
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #979696;
+  color: white;
+}
